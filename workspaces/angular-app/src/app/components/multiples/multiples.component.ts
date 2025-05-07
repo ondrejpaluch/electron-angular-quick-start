@@ -6,6 +6,7 @@ import { ElectronIpcService } from '../../services/electron-ipc.service';
 
 @Component({
 	selector: 'app-multiples',
+	standalone: false,
 	templateUrl: './multiples.component.html',
 	styleUrls: ['./multiples.component.scss'],
 })
